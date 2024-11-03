@@ -35,6 +35,10 @@ smoltcp = { version = "0.11.0", default-features = false, features = [
     "socket-tcp",
     "socket-udp",
 ] }
+chrono = { version = "0.4.38", default-features = false } 
+epd-waveshare = "0.6.0"
+embedded-hal-bus = "0.2.0"
+embedded-graphics = "0.8.1"
 [profile.dev]
 # Rust debug is too slow.
 # For debug builds always builds with some optimization

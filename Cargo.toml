@@ -1,5 +1,5 @@
 [package]
-name = "watchy-rs"
+name = "kit"
 version = "0.1.0"
 authors = ["Kat Watson <kat@zerorisc.com>"]
 edition = "2021"
